@@ -1,0 +1,165 @@
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 0.9rem;
+    }
+    .navbar-brand img {
+        max-height: 30px;
+    }
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 6rem 0;
+    margin-top: -1.5rem;
+}
+
+.hero-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.service-card {
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-top: 0.25rem;
+}
+
+footer .bi {
+    color: #28a745;
+}
+
+.map-container {
+    height: 400px;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* Services Page Styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.card-header h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.list-unstyled li {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.list-unstyled li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+}
+
+/* About Page Styling */
+.motto {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.value-item {
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+}
+
+.value-item i {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 1rem;
+}
+
+.value-item h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.value-item p {
+    color: #666;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Vision and Mission cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 4rem 0;
+    }
+    
+    .map-container {
+        height: 300px;
+    }
+}

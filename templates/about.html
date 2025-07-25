@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block title %}Kipsigis Edis Sacco - About{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-5">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Kipsigis Edis Sacco Logo" height="80" class="mb-3">
+                <h1>About Kipsigis Edis Sacco</h1>
+                <p class="lead mt-3 motto">"Together we grow"</p>
+            </div>
+            
+            <!-- Vision Section -->
+            <section class="mb-5">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Our Vision</h2>
+                        <p class="lead">To be the leading SACCO in provision of financial services.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission Section -->
+            <section class="mb-5">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Our Mission</h2>
+                        <p class="lead">To improve the livelihoods of our members through provision of excellent financial services by mobilizing savings, deposits, and competitive credit facilities.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Core Values Section -->
+            <section class="mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Our Core Values</h2>
+                        <div class="row text-center">
+                            <div class="col-md-4 mb-3">
+                                <div class="value-item">
+                                    <i class="bi bi-shield-check"></i>
+                                    <h3 class="h5">Integrity</h3>
+                                    <p>Maintaining highest ethical standards</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="value-item">
+                                    <i class="bi bi-lightning"></i>
+                                    <h3 class="h5">Efficiency</h3>
+                                    <p>Delivering prompt and effective service</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="value-item">
+                                    <i class="bi bi-people"></i>
+                                    <h3 class="h5">Team Work</h3>
+                                    <p>Working together towards common goals</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="value-item">
+                                    <i class="bi bi-heart"></i>
+                                    <h3 class="h5">Loyalty</h3>
+                                    <p>Committed to our members' success</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="value-item">
+                                    <i class="bi bi-star"></i>
+                                    <h3 class="h5">Professionalism</h3>
+                                    <p>Maintaining high professional standards</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <section class="mt-5">
+        <h2 class="text-center mb-4">Our Team</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text text-muted">Chairperson</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text text-muted">Treasurer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Michael Johnson</h5>
+                        <p class="card-text text-muted">Secretary</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
