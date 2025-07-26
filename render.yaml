@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: kipsigis-edis-sacco
+    name: edis-sacco-society
     env: python
     buildCommand: ""
     startCommand: gunicorn app:app
